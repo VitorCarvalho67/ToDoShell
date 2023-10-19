@@ -3,7 +3,7 @@
 1. **Clone o Repositório:**
 
    ```
-   git clone https://github.com/seu-usuario/seu-projeto.git
+   git clone https://github.com/VitorCarvalho67/ToDoShell.git
    ```
 
 2. **Navegue até a Pasta do Projeto:**
