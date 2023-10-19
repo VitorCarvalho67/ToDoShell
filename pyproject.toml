@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "novo-projeto-em-py"
+version = "0.1.0"
+description = ""
+authors = ["VitorCarvalho67 <vitor.carvalho67@etec.sp.gov.br>"]
+readme = "README.md"
+packages = [{include = "novo_projeto_em_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+prisma = "^0.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
