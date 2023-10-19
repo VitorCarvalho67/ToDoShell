@@ -1,7 +1,7 @@
 # ToDoShell
 
 ## How to Use
-This guide outlines how to set up and use "My Project." Follow these steps to get started.
+This guide outlines how to set up and use ToDoShell, Follow these steps to get started.
 
 you need poetry installed
 
