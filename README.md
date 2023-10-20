@@ -32,7 +32,21 @@
    pip install -r requirements.txt
    ```
 
-4. **Execute o Projeto:**
+3-1 **(Opcional) Subir o banco de dados com docker-compose**
+Docker precisa estar instalado na sua máquina
+
+```
+docker-compose up -d
+```
+
+4. **Migre o banco prisma**
+   Você precisa migrar o banco prisma para as tabelas serem criadas
+
+   ```
+   prisma db push
+   ```
+
+5. **Execute o Projeto:**
 
    Execute o seu projeto Python com Poetry. Substitua `main.py` pelo nome do arquivo principal do seu projeto:
 
@@ -47,7 +61,6 @@
    # Dentro do venv
    (venv) $ python main.py
    ```
-
 
 Isso iniciará seu projeto.
 
