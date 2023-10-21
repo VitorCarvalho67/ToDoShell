@@ -8,71 +8,70 @@ This Python project is a robust and feature-rich ToDoList application, built ent
 
 ## How to use:
 
-1. **Clone o Repositório:**
+1. **Clone the Repository:**
 
-   ```
-   git clone https://github.com/VitorCarvalho67/ToDoShell.git
-   ```
+```
+git clone https://github.com/VitorCarvalho67/ToDoShell.git
+```
 
-2. **Navegue até a Pasta do Projeto:**
+2. **Navigate to the Project Folder:**
 
-   ```
-   cd ToDoShell
-   ```
+```
+cd ToDoShell
+```
 
-3. **Instale as Dependências com Poetry ou Rode o venv diretamente**
+3. **Install Dependencies with Poetry or Run venv Directly**
 
-   Use o seguinte comando para instalar as dependências listadas no arquivo `pyproject.toml`:
+Use the following command to install the dependencies listed in the `pyproject.toml` file:
 
-   ```
-   poetry install
-   ```
+```
+poetry install
+```
 
-   ou
+or
 
-   ```
-   python -m venv venv
-   # Windows
-   .\venv\Scripts\activate.bat
-   # Linux e *nix
-   . ./venv/bin/activate
-   # Instalar dependências
-   pip install -r requirements.txt
-   ```
+```
+python -m venv venv
+# Windows
+.\venv\Scripts\activate.bat
+# Linux and *nix
+. ./venv/bin/activate
+# Install dependencies
+pip install -r requirements.txt
+```
 
-3-1 **(Opcional) Subir o banco de dados com docker-compose**
-Docker precisa estar instalado na sua máquina
+3.1. **(Optional) Start the database with docker-compose**
+Docker must be installed on your machine
 
 ```
 docker-compose up -d
 ```
 
-4. **Migre o banco prisma**
-   Você precisa migrar o banco prisma para as tabelas serem criadas
+4. **Migrate the Prisma database**
+You need to migrate the Prisma database for tables to be created
 
-   ```
-   prisma db push
-   ```
+```
+prisma db push
+```
 
-5. **Execute o Projeto:**
+5. **Run the Project:**
 
-   Execute o seu projeto Python com Poetry. Substitua `main.py` pelo nome do arquivo principal do seu projeto:
+Run your Python project with Poetry. Replace `main.py` with the name of your project's main file:
 
-   ```
-   poetry shell
-   python main.py
-   ```
+```
+poetry shell
+python main.py
+```
 
-   ou
+or
 
-   ```
-   # Dentro do venv
-   (venv) $ python main.py
-   ```
+```
+# Inside the venv
+(venv) $ python main.py
+```
 
-Isso iniciará seu projeto.
-
+This will start your project.
 
 ![Screenshot_207](https://github.com/VitorCarvalho67/ToDoShell/assets/102667323/bed71059-e10a-40bc-8214-4f4f356d25c0)
 
-Certifique-se de que as configurações do Prisma e as variáveis de ambiente estejam devidamente configuradas em seu projeto, como especificado na documentação do Prisma. Este guia simples deve ajudá-lo a configurar e executar seu projeto com o Prisma como dependência usando Poetry. Personalize-o de acordo com os requisitos específicos do seu projeto.
+Make sure Prisma settings and environment variables are properly configured in your project as specified in the Prisma documentation. This simple guide should help you set up and run your project with Prisma as a dependency using Poetry. Customize it as per your project's specific requirements.
