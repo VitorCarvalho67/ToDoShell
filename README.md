@@ -1,6 +1,11 @@
-# ToDoShell
+<div align="center">
+  <img src="https://github.com/VitorCarvalho67/ToDoShell/assets/102667323/e2bf9cc2-4ded-40cf-9f7d-3676cf15de60" />
+</div>
 
-![Screenshot_207](https://github.com/VitorCarvalho67/ToDoShell/assets/102667323/bed71059-e10a-40bc-8214-4f4f356d25c0)
+# ToDoShell
+This Python project is a robust and feature-rich ToDoList application, built entirely using object-oriented programming and employing asynchronous techniques. It harnesses the capabilities of MySQL, Python, Prisma, and Poetry to provide users with a seamless task management system. Users can easily register, log in, and once logged in, they have the flexibility to create new tasks, complete with titles and descriptions. From the main menu, users can efficiently list all their tasks, add new ones, remove existing tasks, and log out. This project showcases the power of object-oriented design and async programming, combining Python for the backend, MySQL for data storage, Prisma for database management, and Poetry for dependency management, ensuring a responsive and user-friendly experience.
+
+## How to use:
 
 1. **Clone o Repositório:**
 
@@ -65,5 +70,8 @@ docker-compose up -d
    ```
 
 Isso iniciará seu projeto.
+
+
+![Screenshot_207](https://github.com/VitorCarvalho67/ToDoShell/assets/102667323/bed71059-e10a-40bc-8214-4f4f356d25c0)
 
 Certifique-se de que as configurações do Prisma e as variáveis de ambiente estejam devidamente configuradas em seu projeto, como especificado na documentação do Prisma. Este guia simples deve ajudá-lo a configurar e executar seu projeto com o Prisma como dependência usando Poetry. Personalize-o de acordo com os requisitos específicos do seu projeto.
