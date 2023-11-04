@@ -1,67 +1,77 @@
 # ToDoShell
 
-1. **Clone o Repositório:**
+<div align="center">
+  <img src="https://github.com/VitorCarvalho67/ToDoShell/assets/102667323/e2bf9cc2-4ded-40cf-9f7d-3676cf15de60" />
+</div>
 
-   ```
-   git clone https://github.com/VitorCarvalho67/ToDoShell.git
-   ```
+This Python project is a robust and feature-rich ToDoList application, built entirely using object-oriented programming and employing asynchronous techniques. It harnesses the capabilities of MySQL, Python, Prisma, and Poetry to provide users with a seamless task management system. Users can easily register, log in, and once logged in, they have the flexibility to create new tasks, complete with titles and descriptions. From the main menu, users can efficiently list all their tasks, add new ones, remove existing tasks, and log out. This project showcases the power of object-oriented design and async programming, combining Python for the backend, MySQL for data storage, Prisma for database management, and Poetry for dependency management, ensuring a responsive and user-friendly experience.
 
-2. **Navegue até a Pasta do Projeto:**
+## How to use:
 
-   ```
-   cd ToDoShell
-   ```
+1. **Clone the Repository:**
 
-3. **Instale as Dependências com Poetry ou Rode o venv diretamente**
+```
+git clone https://github.com/VitorCarvalho67/ToDoShell.git
+```
 
-   Use o seguinte comando para instalar as dependências listadas no arquivo `pyproject.toml`:
+2. **Navigate to the Project Folder:**
 
-   ```
-   poetry install
-   ```
+```
+cd ToDoShell
+```
 
-   ou
+3. **Install Dependencies with Poetry or Run venv Directly**
 
-   ```
-   python -m venv venv
-   # Windows
-   .\venv\Scripts\activate.bat
-   # Linux e *nix
-   . ./venv/bin/activate
-   # Instalar dependências
-   pip install -r requirements.txt
-   ```
+Use the following command to install the dependencies listed in the `pyproject.toml` file:
 
-3-1 **(Opcional) Subir o banco de dados com docker-compose**
-Docker precisa estar instalado na sua máquina
+```
+poetry install
+```
+
+or
+
+```
+python -m venv venv
+# Windows
+.\venv\Scripts\activate.bat
+# Linux and *nix
+. ./venv/bin/activate
+# Install dependencies
+pip install -r requirements.txt
+```
+
+3.1. **(Optional) Start the database with docker-compose**
+Docker must be installed on your machine
 
 ```
 docker-compose up -d
 ```
 
-4. **Migre o banco prisma**
-   Você precisa migrar o banco prisma para as tabelas serem criadas
+4. **Migrate the Prisma database**
+You need to migrate the Prisma database for tables to be created
 
-   ```
-   prisma db push
-   ```
+```
+prisma db push
+```
 
-5. **Execute o Projeto:**
+5. **Run the Project:**
 
-   Execute o seu projeto Python com Poetry. Substitua `main.py` pelo nome do arquivo principal do seu projeto:
+Run your Python project with Poetry. Replace `main.py` with the name of your project's main file:
 
-   ```
-   poetry shell
-   python main.py
-   ```
+```
+poetry shell
+python main.py
+```
 
-   ou
+or
 
-   ```
-   # Dentro do venv
-   (venv) $ python main.py
-   ```
+```
+# Inside the venv
+(venv) $ python main.py
+```
 
-Isso iniciará seu projeto.
+This will start your project.
 
-Certifique-se de que as configurações do Prisma e as variáveis de ambiente estejam devidamente configuradas em seu projeto, como especificado na documentação do Prisma. Este guia simples deve ajudá-lo a configurar e executar seu projeto com o Prisma como dependência usando Poetry. Personalize-o de acordo com os requisitos específicos do seu projeto.
+![Screenshot_207](https://github.com/VitorCarvalho67/ToDoShell/assets/102667323/bed71059-e10a-40bc-8214-4f4f356d25c0)
+
+Make sure Prisma settings and environment variables are properly configured in your project as specified in the Prisma documentation. This simple guide should help you set up and run your project with Prisma as a dependency using Poetry. Customize it as per your project's specific requirements.
