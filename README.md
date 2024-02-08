@@ -1,5 +1,3 @@
-# ToDoShell
-
 <div align="center">
   <img src="https://github.com/VitorCarvalho67/ToDoShell/assets/102667323/e2bf9cc2-4ded-40cf-9f7d-3676cf15de60" />
 </div>
@@ -71,6 +69,8 @@ or
 ```
 
 This will start your project.
+>[!IMPORTANT]
+> remember to uncomment .env.example and remove .example from the file name.
 
 ![Screenshot_207](https://github.com/VitorCarvalho67/ToDoShell/assets/102667323/bed71059-e10a-40bc-8214-4f4f356d25c0)
 
