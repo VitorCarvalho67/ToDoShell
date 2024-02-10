@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/VitorCarvalho67/ToDoShell/assets/102667323/e2bf9cc2-4ded-40cf-9f7d-3676cf15de60" />
+  <img src="https://github.com/VitorCarvalho67/ToDoShell/assets/102667323/22ead2a9-f87b-4728-83b5-b3e3ccc55eeb" />
 </div>
 
 This Python project is a robust and feature-rich ToDoList application, built entirely using object-oriented programming and employing asynchronous techniques. It harnesses the capabilities of MySQL, Python, Prisma, and Poetry to provide users with a seamless task management system. Users can easily register, log in, and once logged in, they have the flexibility to create new tasks, complete with titles and descriptions. From the main menu, users can efficiently list all their tasks, add new ones, remove existing tasks, and log out. This project showcases the power of object-oriented design and async programming, combining Python for the backend, MySQL for data storage, Prisma for database management, and Poetry for dependency management, ensuring a responsive and user-friendly experience.
@@ -72,9 +72,8 @@ This will start your project.
 >[!IMPORTANT]
 > remember to uncomment .env.example and remove .example from the file name.
 
-6. **Screenshots:**
+## Screenshots:
 
-![Screenshot_295](https://github.com/VitorCarvalho67/ToDoShell/assets/102667323/22ead2a9-f87b-4728-83b5-b3e3ccc55eeb)
 ![Screenshot_297](https://github.com/VitorCarvalho67/ToDoShell/assets/102667323/523ca199-ed72-48a5-8c6c-d00a052ae6ef)
 
 
