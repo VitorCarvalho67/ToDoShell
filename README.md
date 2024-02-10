@@ -72,6 +72,10 @@ This will start your project.
 >[!IMPORTANT]
 > remember to uncomment .env.example and remove .example from the file name.
 
-![Screenshot_207](https://github.com/VitorCarvalho67/ToDoShell/assets/102667323/bed71059-e10a-40bc-8214-4f4f356d25c0)
+6. **Screenshots:**
+
+![Screenshot_295](https://github.com/VitorCarvalho67/ToDoShell/assets/102667323/22ead2a9-f87b-4728-83b5-b3e3ccc55eeb)
+![Screenshot_297](https://github.com/VitorCarvalho67/ToDoShell/assets/102667323/523ca199-ed72-48a5-8c6c-d00a052ae6ef)
+
 
 Make sure Prisma settings and environment variables are properly configured in your project as specified in the Prisma documentation. This simple guide should help you set up and run your project with Prisma as a dependency using Poetry. Customize it as per your project's specific requirements.
